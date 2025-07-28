@@ -29,7 +29,7 @@ char *longestCommonPrefix(char **strs, int strsSize)
       break;
     }
   }
-
+  // If the prefix is empty, return an empty string
   return prefix;
 }
 

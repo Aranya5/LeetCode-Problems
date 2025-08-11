@@ -2,7 +2,6 @@ import java.util.*;
 
 public class range_product_quaries_2438 {
     private static final long MOD = 1_000_000_007L;
-    
 
     // Fast modular exponentiation
     private long modPow(long base, long exp) {
@@ -46,14 +45,16 @@ public class range_product_quaries_2438 {
 
     public static void main(String[] args) {
         range_product_quaries_2438 sol = new range_product_quaries_2438();
-        
+
         // Example input
+        // n = 13 (binary 1101) has powers of 2 at indices [0, 2, 3] -> powers [1, 4, 8]
+        // Queries will ask for products of these powers
         int n = 13; // 13 = 1101 in binary -> powers [1, 4, 8]
         int[][] queries = {
-            {0, 0}, // product of powers[0] = 1
-            {0, 1}, // 1 * 4 = 4
-            {1, 2}, // 4 * 8 = 32
-            {0, 2}  // 1 * 4 * 8 = 32
+                { 0, 0 }, // product of powers[0] = 1
+                { 0, 1 }, // 1 * 4 = 4
+                { 1, 2 }, // 4 * 8 = 32
+                { 0, 2 } // 1 * 4 * 8 = 32
         };
 
         int[] result = sol.productQueries(n, queries);

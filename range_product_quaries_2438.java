@@ -2,6 +2,7 @@ import java.util.*;
 
 public class range_product_quaries_2438 {
     private static final long MOD = 1_000_000_007L;
+    
 
     // Fast modular exponentiation
     private long modPow(long base, long exp) {

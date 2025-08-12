@@ -48,6 +48,8 @@ public class range_product_quaries_2438 {
 
         // Example input
         // n = 13 (binary 1101) has powers of 2 at indices [0, 2, 3] -> powers [1, 4, 8]
+        // This means we have powers of 2: 2^0, 2^2, 2^3 which are 1, 4, and 8
+        // respectively.
         // Queries will ask for products of these powers
         int n = 13; // 13 = 1101 in binary -> powers [1, 4, 8]
         int[][] queries = {

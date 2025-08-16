@@ -12,5 +12,6 @@ public class Power_of_three_826 {
         System.out.println(isPowerOfThree(9));   // true
         System.out.println(isPowerOfThree(45));  // false
         System.out.println(isPowerOfThree(1));   // true (3^0)
+        System.out.println(isPowerOfThree(0));   // false
     }
 }

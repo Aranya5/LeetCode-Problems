@@ -13,8 +13,7 @@ public:
         int n = strs.size();
         int m = strs[0].length();
         
-        // dp[i] stores the max number of kept columns ending at index i
-        // that satisfy the sorted condition for all rows.
+        
         vector<int> dp(m, 1);
         int max_kept = 1;
         

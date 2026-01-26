@@ -18,7 +18,7 @@ class Solution {
     }
 }
 
-public class smooth_period_2110 {
+public class SmoothPeriod2110 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

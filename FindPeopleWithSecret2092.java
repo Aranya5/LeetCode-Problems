@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class FindPeopleWithSecret2092 {
 
     // The logic from the previous solution
     public List<Integer> findAllPeople(int n, int[][] meetings, int firstPerson) {

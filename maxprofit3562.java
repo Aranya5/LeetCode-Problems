@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution {
+class MaxProfit {
     private List<List<Integer>> adj;
     private int[] present;
     private int[] future;

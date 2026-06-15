@@ -18,7 +18,7 @@ public class reversePairs493 {
         count += mergeSortAndCount(nums, left, mid);
         count += mergeSortAndCount(nums, mid + 1, right);
         
-        // 2. Count reverse pairs and merge the sorted pieces together
+        // 2. Count reverse pairs and merge the sorted pieces
         count += countAndMerge(nums, left, mid, right);
         
         return count;
